@@ -16,10 +16,15 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
 
     $user = 'handsome guy';
-    $age = 25;
+    $age = 28;
+    $job = 'Full-Stack Web Developer';
+    $email = 'coolguy@gmail.com';
     $data = [
         'user' => $user,
-        'age' => $age
+        'age' => $age,
+        'job' => $job,
+        'email' => $email,
+        'tools' =>['JavaScript', 'Vue JS', 'Sass', 'Laravel']
     ];
     return view('home', $data);
 });

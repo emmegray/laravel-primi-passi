@@ -27,4 +27,13 @@ Route::get('/', function () {
         'tools' =>['JavaScript', 'Vue JS', 'Sass', 'Laravel']
     ];
     return view('home', $data);
-});
+})->name('home');
+
+Route::get('/about', function () {
+
+    $text = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus, cumque doloremque eius natus sit deserunt non facere dolores repellat deleniti fugiat pariatur aliquid voluptatum dolor perspiciatis, soluta debitis ad eaque!";
+    $data = [
+        'text' => $text,
+    ];
+    return view('about', $data);
+})->name('about');

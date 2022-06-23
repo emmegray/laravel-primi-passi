@@ -1,5 +1,6 @@
 @extends('layout.main')
 
+
 @section('about')
     <div class="px-4 py-5 my-5 row flex-lg-row-reverse align-items-center g-5">
       <div class="col-10 col-sm-8 col-lg-6">

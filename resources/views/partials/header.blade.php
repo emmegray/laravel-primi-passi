@@ -5,8 +5,8 @@
       </a>
 
       <ul class="nav nav-pills">
-        <li class="nav-item"><a href="/" class="nav-link link-dark">Home</a></li>
-        <li class="nav-item"><a href="/about" class="nav-link link-dark">About</a></li>
+        <li class="nav-item"><a href="{{ route('home') }}" class="nav-link link-dark">Home</a></li>
+        <li class="nav-item"><a href="{{ route('about') }}" class="nav-link link-dark">About</a></li>
         <li class="nav-item"><a href="#" class="nav-link link-dark">Another link</a></li>
         <li class="nav-item"><a href="#" class="nav-link link-dark">More link</a></li>
         <li class="nav-item"><a href="#" class="nav-link link-dark">One more link</a></li>
